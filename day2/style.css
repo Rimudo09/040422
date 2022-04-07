@@ -47,5 +47,25 @@ p {
     }
 }
 
+/* Flex */
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* can flex wrap into comment when 100% width */
+}
 
+.box {
+    display: inline-block;
+    height: 100px;
+    border: 1px solid black;
+    width: 100px;
+    min-width: 100px;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:nth-child(even) {
+    background-color: brown;
+}
