@@ -1,0 +1,33 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 1px solid black;
+    display: inline-block;
+    /* box-sizing: border-box; */
+
+}
+
+.main {
+    background-color: green;
+    margin-left: 200px;
+    padding: 20px;
+    position: absolute;
+
+
+    top: 390px;
+    left: 50px;
+    z-index: -1;
+
+}
+body{
+    background-color: blue;
+}
+
+.parent{
+    border-color: yellow;
+    height: 400px;
+    width: 400px;
+    top: 200px;
+    position: absolute;
+}
