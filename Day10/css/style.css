@@ -1,0 +1,14 @@
+/* structure */
+
+/* style */
+.story{
+    position: absolute;
+
+}
+.year {
+    position: center;
+    z-index: -1;
+    font-size: 200px;
+    color: gray;
+    font-weight: bold;
+}
